@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kolker+Brush&family=Lobster+Two:ital,wght@0,700;1,400&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto+Slab:wght@100;600;900&family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet"> 
+	<style>
+		input[type=text] {
+			width: 300px;
+			height: 20px;
+			border: 2px solid blue;
+			border-radius: 5px;
+			color: black;
+			font-family: 'Roboto Slab', serif;
+		}
+		input[type=number] {
+			width: 150px;
+			height: 20px;
+			border: none;
+			border-bottom: 2px solid blue;
+			font-family: 'Roboto Slab', serif;
+		}
+		input[type=submit] {
+			background: blue;
+			color: white;
+			border: 2px solid black;
+			border-radius: 5px;
+			font-family: 'Lobster Two', cursive;
+		}
+		h1 {
+			background: black;
+			color: white;
+			text-align: center;
+			font-family: 'Roboto Slab', serif;
+		}
+		label {
+			color: grey;
+			font-family: 'Lobster Two', cursive;
+		}
+		*{
+			background: pink;
+		}
+	</style>
+</head>
+<body>
+	<h1>Kindly fill in the forms below</h1>
+	<div class="First_name">
+		<label>First Name:</label>
+		<input type="text" name="">
+	</div>
+	<br>
+	<div class="Last_name">
+		<label>Last Name:</label>
+		<input type="text" name="">
+	</div>
+
+	<br>
+	<div class="Email">
+		<label>Email:</label>
+		<input type="text" name="">
+	</div>
+	<br>
+	<div class="Phone">
+		<label>Phone:</label>
+		<input type="number" name="">
+	</div>
+	<br>
+	<div class="Gender">
+		<label>Gender:</label>
+		<label>Male</label>
+		<input type="radio" name="Gender" value="Male" checked>
+		<label>Female</label>
+		<input type="radio" name="Gender" value="Female">
+		<label>Others</label>
+		<input type="radio" name="Gender" value="Others">
+	</div>
+	<br>
+	<div>
+		<input type="submit" name="">
+	</div>
+
+</body>
+</html>
